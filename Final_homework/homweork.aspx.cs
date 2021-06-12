@@ -16,6 +16,7 @@ namespace Final_homework
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
             lb_Res.Text = Request.Form.Get("tb_Name") + "</br>" + Request.Form.Get("tb_Age") + "</br>";
             if (Request.Form.Get("Sex") == "rb1")
             {
@@ -25,7 +26,7 @@ namespace Final_homework
             {
                 lb_Res.Text = lb_Res.Text + "女";
             }
-            lb_Res.Text =lb_Res.Text + "</br>" + Request.Form.Get("user_id") + "</br>" + Request.Form.Get("tb_num") + "</br>";
+            lb_Res.Text =lb_Res.Text + "</br>" + Request.Form.Get("user_id") + "</br>" + Request.Form.Get("tb_num") + "</br>" +  DropDownList1.SelectedItem.Text.ToString() + "</br>" + Request.Form.Get("TextBox5") + "</br>";
 
         }
     }

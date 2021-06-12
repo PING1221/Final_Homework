@@ -64,12 +64,21 @@
                 <asp:Label ID="Label5" runat="server" Text="科別:" Font-Size="X-Small"></asp:Label>
                 &nbsp;&nbsp;&nbsp;
                 <asp:DropDownList ID="DropDownList1" runat="server" Height="18px" Width="146px" style="margin-left: 0px">
+                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem Value="1" Text="一般內科"></asp:ListItem>
+                    <asp:ListItem Value="2" Text="一般外科"></asp:ListItem>
+                    <asp:ListItem Value="3" Text="泌尿科"></asp:ListItem>
+                    <asp:ListItem Value="4" Text="眼科"></asp:ListItem>
+                    <asp:ListItem Value="5" Text="骨科"></asp:ListItem>
+                    <asp:ListItem Value="6" Text="皮膚科"></asp:ListItem>
+                    <asp:ListItem Value="7" Text="婦產科"></asp:ListItem>
+                    <asp:ListItem Value="8" Text="小兒科"></asp:ListItem>
                 </asp:DropDownList>
             </asp:Panel>
             <br />
             <asp:Panel ID="Panel9" runat="server" Height="20px" style="background-color: #CCCCCC">
                 &nbsp;&nbsp;<asp:Label ID="Label8" runat="server" Text="備註:" Font-Size="X-Small"></asp:Label>
-&nbsp;<asp:TextBox ID="TextBox5" runat="server"  Height="10px" Width="274px"></asp:TextBox>
+&nbsp;<asp:TextBox ID="TextBox5" runat="server"  Height="10px" Width="274px" EnableTheming="True"></asp:TextBox>
                 &nbsp;</asp:Panel>
             <br />
 
