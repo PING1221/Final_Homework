@@ -141,6 +141,15 @@ namespace Final_homework
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
+        /// user_id 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox user_id;
+
+        /// <summary>
         /// Panel7 控制項。
         /// </summary>
         /// <remarks>
@@ -159,13 +168,13 @@ namespace Final_homework
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// TextBox3 控制項。
+        /// tb_num 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox tb_num;
 
         /// <summary>
         /// Panel8 控制項。

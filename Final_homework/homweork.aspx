@@ -18,7 +18,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="width: 355px; height: 346px; background-color: #F0F0F0;">
+        <div style="width: 355px; height: 509px; background-color: #F0F0F0;">
             <div>
                 <asp:Panel ID="Panel3" runat="server" Height="21px" style="font-weight: 700">
                     <h3 class="auto-style1" dir="ltr">掛號系統 </h3>
@@ -50,13 +50,13 @@
                 &nbsp;&nbsp;
                 <asp:Label ID="Label3" runat="server" Text="身分證:" Font-Size="X-Small"></asp:Label>
                 &nbsp;&nbsp; 
-                <asp:TextBox runat="server" Height="10px" Width="133px"></asp:TextBox>
+                <asp:TextBox runat="server" Height="10px" Width="133px" ID="user_id"></asp:TextBox>
             </asp:Panel>
             <br />
             <asp:Panel ID="Panel7" runat="server" Height="20px" style="background-color: #CCCCCC">
                 &nbsp;
                 <asp:Label ID="Label4" runat="server" Font-Size="X-Small" Text="電話號碼:"></asp:Label>
-                &nbsp;<asp:TextBox ID="TextBox3" runat="server" Height="10px"></asp:TextBox>
+                &nbsp;<asp:TextBox ID="tb_num" runat="server" Height="10px"></asp:TextBox>
             </asp:Panel>
             <br />
             <asp:Panel ID="Panel8" runat="server" Height="20px" style="background-color: #CCCCCC">
@@ -75,10 +75,8 @@
 
         <asp:Button ID="Button1" runat="server" Text="確認" Height="22px"  Width="85px" ForeColor="#9933FF" OnClick="Button1_Click" />
             <br />
+            <asp:Label ID="lb_Res" runat="server"></asp:Label>
             <br />
-            <br />
-            <br/>
-            <asp:Label ID="lb_Res" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>

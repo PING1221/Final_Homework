@@ -25,6 +25,8 @@ namespace Final_homework
             {
                 lb_Res.Text = lb_Res.Text + "女";
             }
+            lb_Res.Text =lb_Res.Text + "</br>" + Request.Form.Get("user_id") + "</br>" + Request.Form.Get("tb_num") + "</br>";
+
         }
     }
 }
